@@ -1,0 +1,13 @@
+// html[dir="rtl"] {
+
+//content body
+[direction="rtl"] {
+	
+	.bootstrap-select .dropdown-toggle .filter-option{
+		text-align: right
+	}
+	.owl-carousel {
+		direction: ltr;
+	}
+}
+
