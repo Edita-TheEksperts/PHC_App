@@ -6,8 +6,8 @@ import {
 } from '../../store/actions/AuthActions';
 
 // image
-import logo from "../../assets/images/logo-full.png";
-import loginbg from "../../assets/images/pic1.png";
+import logo from "../../assets/images/Lobo-Dashboard.png";
+import loginbg from "../../assets/images/Signboard.png";
 
 function Login(props) {
 	const [email, setEmail] = useState('demo@example.com');
@@ -43,13 +43,13 @@ function Login(props) {
 					<div className="text-center mb-4 pt-5">
 						<img src={logo} alt="" />
 					</div>
-					<h3 className="mb-2">Welcome back!</h3>
-					<p>User Experience & Interface Design <br />Strategy SaaS Solutions</p>
-				</div>
+					<h3 className="mb-2">Willkommen bei PHC!</h3>
+					<p>Benutzererfahrung und Schnittstellendesign <br />Strategie für SaaS-Lösungen</p>				</div>
 				<div className="aside-image" style={{ backgroundImage: "url(" + loginbg + ")" }}></div>
 			</div>
-			<div className="container flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
-				<div className="d-flex justify-content-center h-100 align-items-center">
+			<div className="container flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto" 
+     style={{ backgroundColor: '#04436F' }}>
+			<div className="d-flex justify-content-center h-100 align-items-center">
 					<div className="authincation-content style-2">
 						<div className="row no-gutters">
 							<div className="col-xl-12 tab-content">
@@ -65,9 +65,9 @@ function Login(props) {
 										</div>
 									)}
 									<form onSubmit={onLogin} className="form-validate">
-										<h3 className="text-center mb-4 text-black">Sign in your account</h3>
+										<h3 className="text-center mb-4 text-white">Sign in your account</h3>
 										<div className="form-group mb-3">
-											<label className="mb-1" htmlFor="val-email"><strong>Email</strong> <span className="required">*</span></label>
+											<label className="mb-1 text-white " htmlFor="val-email"><strong>Email</strong> <span className="required">*</span></label>
 											<div>
 												<input type="email" className="form-control"
 													value={email}
@@ -78,7 +78,7 @@ function Login(props) {
 											{errors.email && <div className="text-danger fs-12">{errors.email}</div>}
 										</div>
 										<div className="form-group mb-3">
-											<label className="mb-1"><strong>Password</strong> <span className="required">*</span></label>
+											<label className="mb-1 text-white "><strong>Password</strong> <span className="required">*</span></label>
 											<input
 												type="password"
 												className="form-control"
@@ -94,7 +94,7 @@ function Login(props) {
 											<div className="form-group mb-3">
 												<div className="custom-control custom-checkbox ml-1">
 													<input type="checkbox" className="form-check-input" id="basic_checkbox_1" />
-													<label className="form-check-label" htmlFor="basic_checkbox_1">Remember my preference</label>
+													<label className="text-white form-check-label" htmlFor="basic_checkbox_1">Remember my preference</label>
 												</div>
 											</div>
 										</div>
@@ -104,7 +104,7 @@ function Login(props) {
 											</button>
 										</div>
 									</form>
-									<div className="new-account mt-3">
+									<div className="new-account mt-3 text-white ">
 										<p>Don't have an account? <Link className="text-primary" to="/page-register">Sign up</Link></p>
 									</div>
 								</div>

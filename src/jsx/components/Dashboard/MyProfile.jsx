@@ -4,8 +4,8 @@ import loadable from "@loadable/component";
 import pMinDelay from "p-min-delay";
 
 //Image 
-import profile from './../../../assets/images/profile1.jpg';
-import pic1 from './../../../assets/images/profile/pic1.jpg';
+import profile from './../../../assets/images/profile/FisnikSalihu.jpg';
+import pic1 from './../../../assets/images/profile/FisnikSalihu.jpg';
 
 const ApexPieChart = loadable(() =>
 	pMinDelay(import("../Jobick/Home/ApexPieChart"), 1000)
@@ -28,9 +28,9 @@ const MyProfile = () => {
 					<div className="profile-pic d-flex">
 						<img src={pic1} alt="" />
 						<div className="profile-info2">
-							<h2 className="mb-0">Franklin Jr</h2>
-							<h4>UI / UX Designer</h4>
-							<span className="d-block"><i className="fas fa-map-marker-alt me-2"/>Medan, Sumatera Utara - ID</span>
+							<h2 className="mb-0">PHC Admin</h2>
+							<h4>Admin</h4>
+							<span className="d-block"><i className="fas fa-map-marker-alt me-2"/>PHC Admin Profile</span>
 						</div>
 					</div>
 				</div>

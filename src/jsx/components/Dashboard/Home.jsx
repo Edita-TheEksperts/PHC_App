@@ -14,7 +14,7 @@ import HomeSlider from '../Jobick/Home/HomeSlider';
 import NetworkData from '../Jobick/Home/NetworkData';
 
 //Images
-import pic1 from './../../../assets/images/profile/pic1.jpg';
+import pic1 from './../../../assets/images/profile/FisnikSalihu.jpg';
 
 //Components
 const NewCustomers1 = loadable(() =>
@@ -129,7 +129,7 @@ const Home = () => {
 											<div className="update-profile d-flex">
 												<img src={pic1} alt="" />
 												<div className="ms-4">
-													<h3 className="fs-24 font-w600 mb-0">Franklin Jr</h3>
+													<h3 className="fs-24 font-w600 mb-0">PHC SuperAdmin</h3>
 													<span className="text-primary d-block mb-xl-3 mb-1">UI / UX Designer</span>
 													<span><i className="fas fa-map-marker-alt me-1" />Medan, Sumatera Utara - ID</span>
 												</div>

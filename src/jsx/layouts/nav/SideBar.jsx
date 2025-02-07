@@ -110,7 +110,7 @@ const SideBar = () => {
               <img src={profile} width={20} alt="" />
               <div className="d-flex align-items-center sidebar-info">
                 <div>
-                  <span className="font-w400 d-block">Franklin Jr</span>
+                  <span className="font-w400 d-block">PHC</span>
                   <small className="text-end font-w400">Superadmin</small>
                 </div>
                 <i className="fas fa-chevron-down"></i>

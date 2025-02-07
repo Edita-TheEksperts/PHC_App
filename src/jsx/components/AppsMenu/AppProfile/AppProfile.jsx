@@ -64,11 +64,11 @@ const AppProfile = () => {
 								</div>
 								<div className="profile-details">
 									<div className="profile-name px-3 pt-2">
-										<h4 className="text-primary mb-0">Mitchell C. Shay</h4>
-										<p>UX / UI Designer</p>
+										<h4 className="text-primary mb-0">Fisnik Salihu</h4>
+										<p>Admin</p>
 									</div>
 									<div className="profile-email px-2 pt-2">
-										<h4 className="text-muted mb-0">hello@email.com</h4>
+										<h4 className="text-muted mb-0">fisnik.salihu@the-eksperts.com</h4>
 										<p>Email</p>
 									</div>
 									<Dropdown className="dropdown ms-auto">
